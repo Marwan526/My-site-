@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نظام إدارة الملفات الشخصية</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>نظام إدارة الملفات الشخصية</h1>
+
+    <input type="text" id="search" class="input-field search-bar" placeholder="بحث عن شخص...">
+    <div id="person-list"></div>
+
+    <h2>إنشاء ملف شخصي</h2>
+    <input type="text" id="fileName" class="input-field" placeholder="اسم الملف">
+    <input type="file" id="coverImage" class="input-field">
+    <input type="password" id="filePassword" class="input-field" placeholder="كلمة مرور">
+    <input type="text" id="age" class="input-field" placeholder="العمر">
+    <input type="text" id="gender" class="input-field" placeholder="الجنس">
+    <input type="text" id="additionalInfo" class="input-field" placeholder="معلومات إضافية">
+    <button class="button" onclick="createPersonFile()">إنشاء ملف</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
